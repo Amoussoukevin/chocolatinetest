@@ -1,0 +1,9 @@
+name: what time is it
+
+on: [ push ]
+
+jobs:
+  Run-Date-After-push:
+    runs-on: ubuntun-latest
+    steps:
+      - run: date
