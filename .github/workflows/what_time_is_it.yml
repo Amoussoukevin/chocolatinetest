@@ -1,6 +1,6 @@
 name: what time is it
 
-on: [ push ]
+on: [push]
 
 jobs:
   Run-Date-After-push:
